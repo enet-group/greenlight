@@ -1,2 +1,7 @@
-<h1>Privacy e Cookie Policy</h1>
-<p>Termini</p>
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
