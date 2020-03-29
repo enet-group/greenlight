@@ -23,32 +23,16 @@
     <h1 class="h2 mb-3"><%= t("landing.welcome").html_safe %></h1>
     <p class="h4 text-muted font-weight-normal mb-7"><%= t("landing.about").html_safe %></p>
 
-      <a class="btn btn-primary" href="./signin">
-        <i class="fas fa-user mr-2"></i><%= t("login") %>
+      <a class="btn btn-primary" href="<%= signin_path %>">
+        <i class="fas fa-sign-in-alt mr-2"></i><%= t("login") %>
       </a>
 
-      <a class="btn btn-primary ml-4" href="./signup" >
+      <a class="btn btn-primary ml-4" href="<%= signup_path %>" >
         <i class="fas fa-user-plus mr-2"></i><%= t("signup.title") %>
       </a>
  
 </div>
 
 
-<!--
-<div class="background">
-  <div class="container pt-9 pb-8">
-    <div class="row">
-      <div class="col-md-12 col-sm-12 text-center">
-        <h1 id="main-text" class="display-4 mb-4"> <%= t("landing.welcome").html_safe %></h1>
-        <p class="lead offset-lg-2 col-lg-8 col-sm-12 "><%= t("landing.about", href: link_to(t("greenlight"), "https://bigbluebutton.org/2018/07/09/greenlight-2-0/", target: "_blank", rel: "noopener")).html_safe %></p>
-        <%= link_to "https://youtu.be/Hso8yLzkqj8", target: "_blank" do %>
-          <h4><%= t("landing.video") %> <i class="far fa-play-circle ml-1"></i></h4>
-        <% end %>
-      </div>
 
-    </div>
-  </div>
-</div>
--->
-
-<%= render "main/components/features" %>
+<%= #render "main/components/features" %>
