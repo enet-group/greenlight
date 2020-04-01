@@ -327,10 +327,10 @@ it:
       title: Impostazioni della stanza
       update: Aggiorna Stanza
       client: Seleziona il tipo di interfaccia
-      join_moderator:
+      join_moderator: Tutti i partecipanti possono essere presentatori
       mute: Silenzia utenti quando entrano nella stanza
-      require_approval:
-      start:
+      require_approval: Richiesta autorizzazione prima di entrare
+      start: Qualsiasi partecipante può iniziare il meeting
       footer_text: Le impostazioni della stanza possono essere cambiate in qualsiasi momento.
     rename_room:
       name_placeholder: Inserisci il nome della nuova stanza...
