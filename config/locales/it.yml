@@ -196,7 +196,7 @@ it:
     designs: Grafiche personalizzate
     authentication: Autenticazione Utente
   footer:
-    powered_by: "Servizio offerto da %{href}."
+    powered_by: "è un servizio offerto da %{href}."
   forgot_password:
     subtitle: Password dimenticata
     email: Email
