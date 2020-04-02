@@ -20,7 +20,7 @@ it:
   activerecord:
     attributes:
       user:
-        accepted_terms: "Termini e condizioni"
+        accepted_terms: "Condizioni di utilizzo e Privacy policy"
         email:
         name: Nome
         password:
@@ -467,7 +467,7 @@ it:
     subtitle: Crea un Account
     title: Iscriviti
     with: "Iscriviti con %{provider}"
-  terms:
+  terms: "Condizioni di utilizzo e Privacy policy"
     accept: "Accetto %{href}"
     accept_existing: Accetto i termini e le condizioni
     title: Termini e Condizioni

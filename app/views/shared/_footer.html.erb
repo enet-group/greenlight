@@ -14,7 +14,7 @@
 %>
 
 <footer class="footer pt-3">
-  <p class="text-center mb-1"><a href="https://www.getplace.com" target="_blank">Getplace</a> <%= t("footer.powered_by", href: link_to("Enet Group", "https://enet.group", target: "_blank", rel: "noopener")).html_safe %> <a href="/b/terms#privacy" target="_blank">Privacy policy</a></p>
+  <p class="text-center mb-1"><a href="https://www.getplace.com" target="_blank">Getplace</a> <%= t("footer.powered_by", href: link_to("Enet Group", "https://enet.group", target: "_blank", rel: "noopener")).html_safe %> <a href="/b/terms" target="_blank"><%= t("terms") %></a></p>
 </footer>
 
 <%= render "shared/components/cookie_warning" %>
