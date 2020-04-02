@@ -467,7 +467,7 @@ it:
     subtitle: Crea un Account
     title: Iscriviti
     with: "Iscriviti con %{provider}"
-  terms: Condizioni di utilizzo e Privacy policy
+  terms: 
     accept: "Accetto %{href}"
     accept_existing: Accetto i termini e le condizioni
     title: Termini e Condizioni
